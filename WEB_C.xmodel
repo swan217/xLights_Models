@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custommodel 
+name="WEB_C" parm1="25" parm2="50" Depth="1" StringType="RGB Nodes" Transparency="0" PixelSize="2" ModelBrightness="" Antialias="1" StrandNames="MyCustomModel" NodeNames="" CustomModel=",,,,,,,,,,,,1,,,,,,,,,,,,;,,,,,,,,,,,,2,,,,,,,,,,,,;,,,,,,,,,,,,3,,,,,,,,,,,,;,,,,,,,,,,,,4,,,,,,,,,,,,;,,,,,,,,,,,,5,,,,,,,,,,,,;,,,,,,,,,,,,6,,,,,,,,,,,,;,,,,,,,,,,,,7,,,,,,,,,,,,;,,,,,,,,,,,,8,,,,,,,,,,,,;,,,,,,,,,,,,9,,,,,,,,,,,,;,,,,,,,,,,,,10,,,,,,,,,,,,;,,,,,,,,,,,,11,,,,,,,,,,,,;,,,,,,,,,,,,12,,,,,,,,,,,,;,,,,,,,,,,,,13,,,,,,,,,,,,;,,,,,,,,,,,,14,,,,,,,,,,,,;,,,,,,,,,,,,15,,,,,,,,,,,,;,,,,,,,,,,,,16,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,17,,18,,19,,43,,44,,,,,,50,,37,,36,,,,,;,,,,,,,,,,45,,,,49,,,,,,,,,,;,,,,20,,,,42,,,46,,48,,,38,,,,35,,,,;,,,,,,21,,,,,,47,,,,,,34,,,,,,;,,,,22,,,,,,41,,,,39,,,,,,,,,,;,,,,,,,23,,,,,40,,,,,33,,,,,,,;,,,,,,,,,24,,,,,,32,,,,,,,,,;,,,,,,,,,,,,29,,,,,,,,,,,,;,,,,,,,,25,,26,,,,30,,31,,,,,,,,;,,,,,,,,,,,,28,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,27,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,," SourceVersion="2021.27"  >
+<subModel name="Spokes" layout="horizontal" type="ranges" bufferstyle="Default" line0="36,37,50" line1="34,38,49" line2="48,39,32-31" line3="47,40,29-27" line4="24-25,41,46" line5="21,22,42,45" line6="17-19,43,44">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="44-50" line1="37-43" line2="19,21,24,29,32,34,36" line3="18,20,22-23,25-26,28,30-31,33,35">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Triangles" layout="horizontal" type="ranges" bufferstyle="Default" line0="50,37,35-36" line1="49,38,33-34" line2="48,39,30,32-31" line3="26,47,40,29-27" line4="23-25,41,46" line5="20,22-21,42,45" line6="17-19,43,44">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Snowflake" layout="horizontal" type="ranges" bufferstyle="Default" line0="50,37,35-36" line1="49,38,33-34" line2="48,39,30,32-31" line3="26,47,40,29-27" line4="23-25,41,46" line5="20,22-21,42,45" line6="17-19,43,44">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings-1" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="19,21,24,29,32,34,36" line1="37-43" line2="44-50" WorldPosX="574.5532" WorldPosY="234.1879" WorldPosZ="0.0000" ScaleX="3.0000" ScaleY="3.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="90.00000000" versionNumber="5" StartChannel="2047">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings-2" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="18,20,22-23,25-26,28,30-31,33,35" WorldPosX="574.5532" WorldPosY="234.1879" WorldPosZ="0.0000" ScaleX="3.0000" ScaleY="3.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="90.00000000" versionNumber="5" StartChannel="2044">
+  <ControllerConnection/>
+</subModel>
+<modelGroup selected="0" name="RINGS" LayoutGroup="All Previews" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="EXPORTEDMODEL/Rings-2,EXPORTEDMODEL/Rings-1"/>
+
+<modelGroup selected="0" name="SPOKES" LayoutGroup="All Previews" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="EXPORTEDMODEL/Spokes"/>
+
+</custommodel>

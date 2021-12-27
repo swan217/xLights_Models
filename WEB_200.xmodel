@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<custommodel 
+name="WEB_200" parm1="50" parm2="26" Depth="1" StringType="RGB Nodes" Transparency="0" PixelSize="2" ModelBrightness="" Antialias="1" StrandNames="MyCustomModel" NodeNames="" CustomModel="156,157,,158,159,,160,161,162,,163,197,196,,198,199,200,,,,,,,,,,,,,,39,38,,37,36,35,,33,34,20,,19,18,17,,16,15,,14,13;,,,155,,,,,164,,,,,,195,,,,,,,,,,,,,,,,,,,,,32,,,,,,21,,,,,12,,,;,,,,,,,,,165,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,22,,,,,,,,,;,,,,154,,,,,,,,,,,194,,,,,,,,,,,,,,40,,,,,31,,,,,,,,,,,11,,,,;,,,,,153,,,,,166,,,,,193,,191,,190,,,,,,,,,,,41,,42,,30,,,,,23,,,,,10,,,,,;,,,,,152,,,,,,,,,,,189,,,,,,,,,,,,,,,,,43,,,,,,,,,,,9,,,,,;,,,,,,,,,,167,,,,188,192,187,,,,,183,,,,,,,49,,,,,45,44,29,,,,24,,,,,,,,,,;,,,,,151,,,,,168,,,172,,,,,186,,184,,,,,,,,,48,,46,,,,,28,,,25,,,,,8,,,,,;,,,,,,,,,,171,,173,,,,,,,,182,,,,103,,,,,50,,,,,,,,27,,26,,,,,,,,,,;,,,,,150,,,,169,,174,,,,,,,185,,,,,,,,,,,,,47,,,,,,,58,,59,,,,7,,,,,;,,,,,149,,148,170,,,,,175,,,,,,108,107,,106,,104,,,98,,97,96,,,,,,57,,,,,60,61,,6,,,,,;,,,,,,147,,,,,,,,176,,,,181,,,,,105,102,,99,,,,,51,,,,56,,,,,,,,62,,,,,,;,,,146,,142,141,,,,,,,,,177,,,109,,,,,,100,,,,,,,95,,,55,,,,,,,,,63,5,,4,,,;,,143,,,,,,140,139,,,,,,,,180,,,,,,,,,,,,,,,52,,,,,,,,65,64,,,,,,3,,;144,145,,,,,,,,,138,,,,,178,110,,,112,,,,,101,,,,,,92,,,94,54,,,,,66,,,,,,,,,2,1;,,,,,,,,,,,,,,,,179,111,,,,113,114,,116,,,90,91,,,,93,53,,,,,,,,,,,,,,,,;,,,,,,,,,,,137,,,,,,,,,,,,115,88,,89,,,,,,,,,,,,67,,,,,,,,,,,;,,,,,,,,,,,,136,,,128,,,,,,,,,,,,,,,,,,,76,,,68,,,,,,,,,,,,;,,,,,,,,,,,,,,127,,,,,,,,,,117,,,,,,,,,,,77,,,,,,,,,,,,,,;,,,,,,,,,,,,,135,129,,125,,124,,,,,,87,,,,,,,80,,79,,75,69,,,,,,,,,,,,,;,,,,,,,,,,,,,134,,126,,,,123,,122,,,,,,,82,,81,,,,78,,70,,,,,,,,,,,,,;,,,,,,,,,,,,130,,,,,,,,,,121,,118,,,83,,,,,,,,,,74,,,,,,,,,,,,;,,,,,,,,,,,,133,,,,,,,,,,,120,86,,84,,,,,,,,,,,71,,,,,,,,,,,,;,,,,,,,,,,,,,,,,,,,,,,,,119,,,,,,,,,,,,,,,,,,,,,,,,,;,,,,,,,,,,,131,,,,,,,,,,,,,,,,,,,,,,,,,,,73,,,,,,,,,,,;,,,,,,,,,,132,,,,,,,,,,,,,,85,,,,,,,,,,,,,,,72,,,,,,,,,," SourceVersion="2021.27"  >
+<subModel name="Spokes" layout="horizontal" type="ranges" bufferstyle="Default" line0="156-163,196-200" line1="142-148,169-173,188-192" line2="108-110,127-134,179-184" line3="85-88,100-104,116-119" line4="48-53,70-77,94-96" line5="1-5,26-29,40-44,59-62" line6="13-20,33-39">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="5-12,14,63-70,78-84,119-126,134-142,149-155,157" line1="18,21-25,53-59,89-93,111-115,117,161,164-169,174-179" line2="30-33,44-47,96-99,102,105-108,185-187,192-196" line3="40-39">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Triangles" layout="horizontal" type="ranges" bufferstyle="Default" line0="156-163,196-200" line1="142-155,164-173,188-195" line2="108-110,127-141,174-187" line3="85-88,100-107,111-126" line4="48-53,70-84,89-99" line5="1-5,26-29,40-47,54-69" line6="6-25,30-39">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Snowflake" layout="horizontal" type="ranges" bufferstyle="Default" line0="154-165,195-200," line1="139-151,167-175,187-193" line2="107-112,124-137,177-185" line3="82-90,99-105,114-122" line4="47-55,67-80,92-97" line5="1-8,24-30,40-45,57-65" line6="10-22,32-39">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings-2" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="30-33,44-47,96-99,102,105-108,185-187,192-196" line1="40-39" WorldPosX="601.5500" WorldPosY="236.7652" WorldPosZ="0.0000" ScaleX="4.0000" ScaleY="4.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="90.00000000" versionNumber="5" StartChannel="2230">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings-3" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="18,21-25,53-59,89-93,111-115,117,161,164-169,174-179" line1="30-33,44-47,96-99,102,105-108,185-187,192-196" WorldPosX="601.5500" WorldPosY="236.7652" WorldPosZ="0.0000" ScaleX="4.0000" ScaleY="4.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="90.00000000" versionNumber="5" StartChannel="2194">
+  <ControllerConnection/>
+</subModel>
+<subModel name="Rings-4" layout="vertical" type="ranges" bufferstyle="Stacked Strands" line0="5-12,14,63-70,78-84,119-126,134-142,149-155,157" line1="18,21-25,53-59,89-93,111-115,117,161,164-169,174-179" WorldPosX="601.5500" WorldPosY="236.7652" WorldPosZ="0.0000" ScaleX="4.0000" ScaleY="4.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="90.00000000" versionNumber="5" StartChannel="2155">
+  <ControllerConnection/>
+</subModel>
+<modelGroup selected="0" name="RINGS" LayoutGroup="All Previews" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="EXPORTEDMODEL/Rings-4,EXPORTEDMODEL/Rings-3,EXPORTEDMODEL/Rings-2"/>
+
+<modelGroup selected="0" name="SPOKES" LayoutGroup="All Previews" GridSize="400" XCentreOffset="0" YCentreOffset="0" layout="minimalGrid" models="EXPORTEDMODEL/Spokes"/>
+
+<modelGroup selected="0" name="WEB-2" LayoutGroup="All Previews" GridSize="800" layout="Overlay - Centered" models="WEB_200"/>
+
+</custommodel>
